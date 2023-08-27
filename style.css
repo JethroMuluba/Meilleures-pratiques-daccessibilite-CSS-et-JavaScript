@@ -55,3 +55,16 @@ a:active {
 input {
   border-radius: 7px;
 }
+
+
+#contenairHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid;
+}
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+} */
