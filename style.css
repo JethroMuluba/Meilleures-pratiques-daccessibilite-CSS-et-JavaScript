@@ -20,10 +20,15 @@ p,
 li {
   line-height: 1.5;
   font-size: 1.5rem;
-  
+
 }
+
 /* strong,
 em {
   color: #e4bf07;
 } */
 
+/* abbr {
+  color:#e4bf07;
+}
+ */
