@@ -17,7 +17,8 @@ h1 {
 
 span,
 p,
-li {
+li,
+label {
   line-height: 1.5;
   font-size: 1.5rem;
 
@@ -39,12 +40,18 @@ a {
 }
 
 a:hover
+
 /* a:visited,
-a:focus*/ { 
+a:focus*/
+  {
   color: #e4bf07;
-  
+
 }
 
 a:active {
   color: #a60000;
+}
+
+input {
+  border-radius: 7px;
 }
