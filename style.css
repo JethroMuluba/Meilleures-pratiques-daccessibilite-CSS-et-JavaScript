@@ -32,3 +32,19 @@ em {
   color:#e4bf07;
 }
  */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover
+/* a:visited,
+a:focus*/ { 
+  color: #e4bf07;
+  
+}
+
+a:active {
+  color: #a60000;
+}
