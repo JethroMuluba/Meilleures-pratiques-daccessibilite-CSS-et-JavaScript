@@ -10,7 +10,7 @@ body {
   background-color: #115997;
   color: white;
 }
-
+/* <!-- Structure du contenu du texte "standard" --> */
 h1 {
   font-size: 3rem;
 }
@@ -24,16 +24,20 @@ label {
 
 }
 
+/* <!-- Texte mis en emphase --> */
+
 /* strong,
 em {
   color: #e4bf07;
 } */
 
+    /* <!-- Les abréviations --> */
 /* abbr {
   color:#e4bf07;
 }
  */
 
+    /* <!-- Éléments form --> */
 a {
   color: #ffffff;
   text-decoration: none;
