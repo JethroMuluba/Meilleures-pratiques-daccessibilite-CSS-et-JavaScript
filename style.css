@@ -10,9 +10,15 @@ body {
   background-color: #115997;
   color: white;
 }
+
 /* <!-- Structure du contenu du texte "standard" --> */
 h1 {
   font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #e4bf07;
 }
 
 span,
@@ -31,13 +37,13 @@ em {
   color: #e4bf07;
 } */
 
-    /* <!-- Les abréviations --> */
+/* <!-- Les abréviations --> */
 /* abbr {
   color:#e4bf07;
 }
  */
 
-    /* <!-- Éléments form --> */
+/* <!-- Éléments form --> */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -62,13 +68,26 @@ input {
 
 
 #contenairHeader {
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color:  #e4bf07;
 }
 
 /* nav {
   display: flex;
   justify-content: space-between;
 } */
+
+footer {
+  display: flex;
+  align-items: center;
+  border-top: solid;
+  border-top-width: 1px;
+  border-color:  #e4bf07;
+  
+}
